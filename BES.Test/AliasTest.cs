@@ -42,8 +42,5 @@ namespace BES.Test
             Assert.IsTrue(aliasLeft.Value != aliasRight.Value);
             Assert.IsTrue(aliasLeft != aliasRight);
         }
-
-
-
     }
 }

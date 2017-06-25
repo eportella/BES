@@ -1,13 +1,13 @@
-﻿using System.Collections.Generic;
-
-namespace BES.TruthTable
+﻿namespace BES.TruthTable
 {
-    internal class Model
+    using System.Collections.Generic;
+
+    public class Model
     {
         public Model()
         {
-            Cells = new HashSet<ICollection<Cell.Interface>>();
+            Cells = new HashSet<Cells.Interface>();
         }
-        public ICollection<ICollection<Cell.Interface>> Cells { get; set; }
+        public ICollection<Cells.Interface> Cells { get; set; }
     }
 }
